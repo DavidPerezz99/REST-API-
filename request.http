@@ -1,0 +1,26 @@
+GET http://localhost:9000/api/show HTTP/1.1 
+###
+POST http://localhost:9000/api/add HTTP/1.1
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:9000/api/  HTTP/1.1
+
+###
+PUT http://localhost:9000/api/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "AGE":28,
+    "SEX":0,
+    "CPT":"ATA",
+    "RBP":120,
+    "CHOL":105,
+    "FBS":0,
+    "RECG":"Normal",
+    "MHR":140,
+    "OPK":1,
+    "STS":"Down"
+
+}
