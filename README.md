@@ -27,13 +27,13 @@ Mysql db has to be created in the local machine in which the code is going to be
 
 ### INSTALL ALL THE NEEDED MODULES TO RUN THE API: 
 Please refer to these lines in server.js
-    "express": "^4.17.3",
-    "express-myconnection": "^1.0.4",
-    "googleapis": "^39.2.0",
-    "jquery": "^3.6.0",
-    "jsdom": "^19.0.0",
-    "mysql": "^2.18.1",
-    "node-fetch": "^2.6.7" 
+- express: "^4.17.3",
+- express-myconnection: "^1.0.4",
+- googleapis: "^39.2.0",
+- jquery: "^3.6.0",
+- jsdom: "^19.0.0",
+- mysql: "^2.18.1",
+- node-fetch: "^2.6.7" 
  ### IMPLEMENT YOUR GOOGLE SHEET JS FILE DOWNLOAD LINK IN THE API 
  Please refer to this line in server.js
  const url = 'https://script.google.com/macros/s/AKfycbxnV-qgaqWQYjx5TjzpzRJ7xKLFn1wHx_pJjGZf_PlID0iNaFd7Z4j-0qEpekXsf2Qi/exec';
