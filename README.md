@@ -36,7 +36,7 @@ Please refer to these lines in server.js
 - node-fetch: "^2.6.7" 
  ### IMPLEMENT YOUR GOOGLE SHEET JS FILE DOWNLOAD LINK IN THE API 
  Please refer to this line in server.js---->
- const url = 'https://script.google.com/macros/s/AKfycbxnV-qgaqWQYjx5TjzpzRJ7xKLFn1wHx_pJjGZf_PlID0iNaFd7Z4j-0qEpekXsf2Qi/exec';
+ const url = 'https://script.google.com/macros/s/YOURDOWNLOADLINKID/exec';
  
  if all the above is ready and implemented correctly it all should RUN and you should be able to POST,GET,UPDATE,DELETE into the database through the REST CLIENT(requests.http)  in the API server (server.js) 
 
